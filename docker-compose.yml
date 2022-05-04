@@ -1,0 +1,9 @@
+#
+# Ce fichier est utilisé pour démarer les outils necessaires au developement de l'application sur un poste local.
+#
+# Utilisez la commande suivante pour démarrer la base PostgreSQL :
+#    docker-compose up
+
+# Utilisez la commande suivante pour tout supprimer:
+#    docker-compose down -v --remove-orphans
+#

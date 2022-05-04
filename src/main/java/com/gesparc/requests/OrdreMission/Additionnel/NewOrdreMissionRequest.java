@@ -1,0 +1,52 @@
+package com.gesparc.requests.OrdreMission.Additionnel;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import com.gesparc.responses.ordreMission.AccompagnonMissionResponse;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class NewOrdreMissionRequest implements Serializable 
+{
+    List<AccompagnonMissionResponse> accompagnons = new ArrayList<>();
+    
+    private Long id;
+    
+    private Long idVehicule;
+    
+    private String numeroOrdre;
+    
+    private Date dateOrdre;
+    
+    private Date heureDateDepart;
+    
+    private int indexDepart;
+    
+    private String lieuDepart;
+    
+    private String destination;
+    
+    private String objectifMission;
+    
+    private String marchandiseTransportee;
+    
+    private Date dateDebutValidite;
+    
+    private Date dateFinValidite;
+    
+    private Date heureDateRetour;
+    
+    private int indexRetour;
+    
+    private boolean confirmed;
+    
+    private boolean depassantDateRetour;
+}

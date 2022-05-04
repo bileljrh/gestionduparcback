@@ -1,0 +1,1 @@
+-- Script contenant les différents CREATE d'initialisation de la base de donnée
